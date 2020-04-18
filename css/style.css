@@ -1,0 +1,129 @@
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+body,
+html {
+    margin: 50px 40px 40px;
+    color: #222;
+    background-color: #f8f8ff;
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 20px;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%
+}
+
+input {
+    background-color: transparent;
+}
+
+a,
+a:visited {
+    color: rgb(153, 0, 255) 61, 70);
+    text-decoration: none
+}
+
+a:hover {
+    font-weight: bolder;
+    -webkit-transition: 130ms linear;
+    transition: 130ms linear
+}
+
+input,
+input:focus {
+    border: 0;
+    font-family: monospace;
+    font-size: 14px;
+    color: rgba(0, 0, 0, .55);
+    outline: 0
+}
+
+::-moz-selection {
+    background: rgb(153, 0, 255) 61, 70);
+    padding: 3px
+}
+
+::selection {
+    background: rgb(153, 0, 255) 61, 70);
+    padding: 3px
+}
+
+hr {
+    width: 15%;
+    margin-left: 0
+}
+
+.header,
+code {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+#album span,
+.header {
+    font-weight: 700
+}
+
+.info {
+    padding-left: 10px;
+    margin-left: 10px;
+    border-left: 1px solid rgba(0, 0, 0, .4)
+}
+
+.info span {
+    display: block
+}
+
+#last {
+    display: none;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-duration: .35s;
+    animation-duration: .35s
+}
+
+#track {
+    opacity: .7
+}
+
+#track:before {
+    content: '\266A';
+    padding-right: 8px
+}
+
+#track a {
+    font-style: initial
+}
+
+#album {
+    padding-left: 15px;
+    opacity: .6
+}
+
+#album span {
+    font-style: italic
+}
