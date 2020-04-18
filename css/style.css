@@ -37,7 +37,7 @@ input {
 
 a,
 a:visited {
-    color: #89CFF0;
+    color: rgb(0, 255, 0);
     text-decoration: none
 }
 
