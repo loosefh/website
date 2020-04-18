@@ -37,7 +37,7 @@ input {
 
 a,
 a:visited {
-    color: rgb(0, 255, 85) 61, 70);
+    color: #89CFF0;
     text-decoration: none
 }
 
@@ -57,12 +57,12 @@ input:focus {
 }
 
 ::-moz-selection {
-    background: rgb(0, 255, 85) 61, 70);
+    background: rgb(0, 255, 0);
     padding: 3px
 }
 
 ::selection {
-    background: rgb(0, 255, 85) 61, 70);
+    background: rgb(0, 255, 0);
     padding: 3px
 }
 
