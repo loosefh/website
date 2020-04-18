@@ -9,7 +9,7 @@ var input = document.querySelector("input"),
     lastfm = {
         url: "https://ws.audioscrobbler.com/2.0/",
         user: "imscuffed",
-        apiKey: "ac714a91d6871ac742628ca27225bcf0",
+        apiKey: "ec2ad8d305ece23f03536fecd8f0da29",
         recent: "user.getrecenttracks",
         top: "user.gettopartists",
         topPeriod: "1month",
